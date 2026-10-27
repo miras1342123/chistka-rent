@@ -1,0 +1,5 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth;scroll-padding-top:5rem}
+body{@apply bg-paper text-ink font-sans antialiased overflow-x-hidden}
+:focus-visible{outline:3px solid #38C4B2;outline-offset:3px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
